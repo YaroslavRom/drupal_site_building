@@ -1,0 +1,14 @@
+global:
+  css:
+    theme:
+      css/elements.css: {}
+      components:
+        css/header.css: {}
+        css/footer.css: {}
+        css/main-menu.css: {}
+        css/global.css: {}
+
+ps_portal:
+  css:
+    component:
+      css/ps-portal.css: {}

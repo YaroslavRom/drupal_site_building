@@ -1,0 +1,22 @@
+name: "@@Portal Shop Blog@@"
+description: "@@Custom Theme@@"
+type: theme
+version: 9.2.3
+core: 8.x
+base theme: classy
+package: Core
+experimental: true
+core_version_requirement: ^8 || ^9
+
+libraries:
+  - ps_blog/global
+  - ps_blog/ps_portal
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  highlighted: Highlighted
+  content: Content
+  footer: Footer
+
+
