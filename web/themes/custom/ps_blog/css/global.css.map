@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"global.css"}
+{
+"version": 3,
+"mappings": "AACA,KAAM;EACJ,IAAI,EAAC,6BAA6B;EAClC,KAAK,ECAE,OAAO",
+"sources": ["../scss/global.scss","../scss/_variables.scss"],
+"names": [],
+"file": "global.css"
+}

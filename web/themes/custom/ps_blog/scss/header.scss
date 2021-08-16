@@ -1,0 +1,13 @@
+@import "variables";
+.block-system-branding-block{
+  .site-name{
+    a{
+      text-align: center;
+      font-size: 55px;
+      color: $black;
+      text-transform: uppercase;
+      display: block;
+      text-decoration: none;
+    }
+  }
+}
