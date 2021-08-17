@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AACA,KAAM;EACJ,IAAI,EAAC,6BAA6B;EAClC,KAAK,ECAE,OAAO",
-"sources": ["../scss/global.scss","../scss/_variables.scss"],
-"names": [],
-"file": "global.css"
-}
+{"version":3,"sources":["global.scss"],"names":[],"mappings":"AACA;EACE;EACA","file":"global.css","sourcesContent":["@import \"variables\";\n.page {\n  font:18px/1.4 'Roboto', sans-serif;\n  color: $black;\n}\n\n"]}

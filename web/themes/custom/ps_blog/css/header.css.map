@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAGI,yCAAC;EACC,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;EACf,KAAK,ECHF,OAAO;EDIV,cAAc,EAAE,SAAS;EACzB,OAAO,EAAE,KAAK;EACd,eAAe,EAAE,IAAI",
-"sources": ["../scss/header.scss","../scss/_variables.scss"],
-"names": [],
-"file": "header.css"
-}
+{"version":3,"sources":["header.scss","_variables.scss"],"names":[],"mappings":"AAGI;EACE;EACA;EACA,OCHG;EDIH;EACA;EACA","file":"header.css","sourcesContent":["@import \"variables\";\n.block-system-branding-block{\n  .site-name{\n    a{\n      text-align: center;\n      font-size: 55px;\n      color: $black;\n      text-transform: uppercase;\n      display: block;\n      text-decoration: none;\n    }\n  }\n}\n","$gutter: 30px;\n$gutterM: 20px;\n$gutterS: 10px;\n$black : #373737;\n$blue: #4c84be;\n$gray: #828282;\n$white : #fff;\n\n$mobile: 480px;\n$table: 600px;\n$desktop: 960px;\n$desktopLarge:1160px;\n$desktopExtraLarge:1440px;\n\n"]}
