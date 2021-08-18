@@ -1,15 +1,17 @@
 global:
-  css:
     theme:
       "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" : { external: true }
-      css/elements.css: {}
-      components:
+    css:
+      component:
+        css/elements.css: {}
         css/header.css: {}
         css/footer.css: {}
         css/main-menu.css: {}
         css/global.css: {}
+        css/region.css: {}
 
 ps_portal:
   css:
     component:
       css/ps-portal.css: {}
+

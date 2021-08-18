@@ -12,6 +12,9 @@ libraries:
   - ps_blog/global
   - ps_blog/ps_portal
 
+stylessheets-remove:
+  - '@classy/css/components/menu.css'
+
 regions:
   header: Header
   primary_menu: 'Primary menu'

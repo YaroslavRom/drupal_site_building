@@ -1,0 +1,6 @@
+.region{
+  & > .block{
+    margin-bottom: $gutter;
+
+  }
+}

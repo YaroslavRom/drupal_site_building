@@ -1,0 +1,1 @@
+{"version":3,"sources":["region.scss"],"names":[],"mappings":"AACE;EACE","file":"region.css","sourcesContent":[".region{\n  & > .block{\n    margin-bottom: 0;\n\n  }\n}\n"]}

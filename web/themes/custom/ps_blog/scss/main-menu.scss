@@ -1,0 +1,31 @@
+@import "variables";
+.menu--main{
+  max-width: $desktopLarge;
+  margin: 0 auto;
+  padding: 0 10px $gutterS 10px;
+  border-bottom: 3px solid $gray;
+  ul.menu a.is-active{
+    color: $gray;
+  }
+  .menu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    li{
+      margin-right:$gutter;
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+    a{
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $gray;
+      &:hover{
+        color: $blue;
+      }
+    }
+  }
+}
