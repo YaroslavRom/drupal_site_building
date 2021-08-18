@@ -1,2 +1,13 @@
-
+.node--article .field--name-field-images {
+  display: grid;
+  grid-gap: 20px;
+}
+.node--article .field--name-field-media-image a {
+  display: block;
+  text-align: center;
+}
+.node--article .field--name-field-media-image img {
+  margin: 0 auto;
+  display: block;
+}
 /*# sourceMappingURL=ps-portal.css.map */

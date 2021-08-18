@@ -1,0 +1,17 @@
+@import "variables";
+.node--article{
+  .field--name-field-images{
+    display: grid;
+    grid-gap: $gutterM;
+  }
+  .field--name-field-media-image{
+    a{
+      display: block;
+      text-align: center;
+    }
+    img{
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}

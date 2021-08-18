@@ -2,4 +2,10 @@
   font: 18px/1.4 "Roboto", sans-serif;
   color: #373737;
 }
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
 /*# sourceMappingURL=global.css.map */
