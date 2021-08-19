@@ -1,0 +1,6 @@
+.view-tags-term .view-content, .view-articles-also-to-read .view-content {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+/*# sourceMappingURL=views.css.map */

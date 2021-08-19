@@ -9,6 +9,7 @@ global:
         css/main-menu.css: {}
         css/global.css: {}
         css/region.css: {}
+        css/views.css: {}
 
 ps_portal:
   css:

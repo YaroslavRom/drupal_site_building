@@ -54,4 +54,16 @@
   float: right;
   width: calc(100% - 200px - 20px );
 }
+
+.node--view-mode-short-qq {
+  margin-bottom: 20px;
+}
+.node--view-mode-short-qq .block-field-blocknodearticletitle {
+  display: block;
+  margin-bottom: 10px;
+}
+.node--view-mode-short-qq .block-field-blocknodearticletitle a {
+  text-decoration: none;
+  color: #828282;
+}
 /*# sourceMappingURL=ps-portal.css.map */

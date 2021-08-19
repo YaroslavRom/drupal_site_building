@@ -1,0 +1,18 @@
+@import "variables";
+@import "mixin";
+
+//.block-views-blocktags-term-block-1{
+//  .view-content{
+//  display: grid;
+//  grid-gap: $gutter;
+//  grid-template-columns: repeat(3, 1fr);
+//}
+//}
+.view-tags-term,.view-articles-also-to-read  {
+  .view-content{
+  display: grid;
+  grid-gap: $gutter;
+  grid-template-columns: repeat(3, 1fr);
+}
+}
+

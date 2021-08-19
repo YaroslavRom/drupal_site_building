@@ -62,5 +62,15 @@
     }
   }
 }
-//block block-layout-builder block-field-blocknodearticlefield-image
-//block block-layout-builder
+.node--view-mode-short-qq{
+  margin-bottom: $gutterM;
+  .block-field-blocknodearticletitle {
+    display: block;
+    margin-bottom: $gutterS;
+    a {
+      text-decoration: none;
+      color: $gray;
+    }
+}
+}
+
