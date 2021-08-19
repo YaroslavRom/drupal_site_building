@@ -1,17 +1,66 @@
 @import "variables";
+@import "mixin";
 .node--article{
+  .field--name-field{
+    margin-bottom: 20px;
+  }
+  img{
+    margin: 0 auto 20px auto;
+    display: block;
+  }
   .field--name-field-images{
     display: grid;
     grid-gap: $gutterM;
+    margin-bottom: 20px;
   }
-  .field--name-field-media-image{
+  .block-field-blocknodearticlefield-article-category-term,.block-field-blocknodearticlefield-tags{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    a{
+      margin: 0 10px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $gray;
+      &:hover{
+        color: $blue;
+      }
+    }
+
+  }
+  .field--name-field-media-image {
     a{
       display: block;
       text-align: center;
     }
-    img{
-      margin: 0 auto;
-      display: block;
+    //here was img
+  }
+}
+
+.node--view-mode-teaser{
+      margin-bottom: $gutterS;
+  .block-field-blocknodearticletitle {
+    display: block;
+    margin-bottom: $gutterS;
+    a {
+      text-decoration: none;
+      color: $gray;
+    }
+  }
+  .layout__region--content {
+    @include clearfix();
+    & > div {
+      &:first-child {
+        float: left;
+        width: 200px;
+        margin-right: $gutterM;
+      }
+      &:not(:first-child) {
+        float: right;
+        width: calc(100% - 200px - 20px );
+      }
     }
   }
 }
+//block block-layout-builder block-field-blocknodearticlefield-image
+//block block-layout-builder
