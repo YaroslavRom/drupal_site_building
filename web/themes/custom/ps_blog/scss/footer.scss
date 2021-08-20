@@ -1,0 +1,12 @@
+@import "variables";
+@import "mixin";
+footer{
+  margin-top: $gutterM;
+  text-align: center;
+  padding: 40px 10px;
+  box-shadow: 0 -2px 8px 0 rgba(50,50,50,0.69);
+}
+.copyright-site{
+  font-size: 13px;
+  text-transform: uppercase;
+}

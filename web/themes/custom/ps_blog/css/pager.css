@@ -1,0 +1,41 @@
+.pager {
+  margin-bottom: 30px;
+}
+.pager__item {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.pager__item {
+  margin: 0 5px;
+}
+.pager__item.is-active a, .pager__item:hover a {
+  color: #4c84be;
+  border: 1px solid #4c84be;
+}
+.pager__item a {
+  display: block;
+  color: #828282;
+  text-decoration: none;
+  padding: 3px 10px;
+  border: 1px solid #fff;
+}
+
+.pager__items {
+  clear: none;
+  text-align: initial;
+  display: flex;
+  justify-content: center;
+}
+
+.pager__item {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.pager__item.is-active {
+  font-weight: bold;
+}
+/*# sourceMappingURL=pager.css.map */

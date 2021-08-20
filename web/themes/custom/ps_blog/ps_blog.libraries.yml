@@ -10,6 +10,7 @@ global:
         css/global.css: {}
         css/region.css: {}
         css/views.css: {}
+        css/pager.css: {}
 
 ps_portal:
   css:

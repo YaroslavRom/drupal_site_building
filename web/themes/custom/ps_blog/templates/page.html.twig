@@ -8,9 +8,10 @@
     <a id="main-content" tabindex="-1"></a>
     {{ page.content}}
   </main>
-  {% if page.footer %}
+{#    {% if page.footer %}#}
   <footer role="contentinfo">
-    {{ page.footer }}
+        {{ page.footer }}
+    <div class="copyright-site">portalshop.local &copy; {{ 'now'|date("Y") }}</div>
   </footer>
-  {% endif %}
+{#  {% endif %}#}
 </div>

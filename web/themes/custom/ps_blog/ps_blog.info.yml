@@ -13,6 +13,7 @@ libraries:
   - ps_blog/ps_portal
 
 stylessheets-remove:
+  - '@classy/css/components/pager.css'
   - '@classy/css/components/menu.css'
 
 regions:

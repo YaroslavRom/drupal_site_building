@@ -1,0 +1,45 @@
+@import "variables";
+@import "mixin";
+
+.pager{
+  margin-bottom: $gutter;
+  &__item{
+      display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  &__item{
+    margin: 0 5px;
+    &.is-active, &:hover{
+      a{
+        color: $blue;
+        border: 1px solid $blue;
+      }
+    }
+    a{
+        display: block;
+      color: $gray;
+      text-decoration: none;
+      padding: 3px 10px;
+      border: 1px solid $white;
+      //transition: all 0.5s ease;
+    }
+  }
+}
+
+.pager__items {
+  clear: none;
+  text-align: initial;
+  display: flex;
+  justify-content: center;
+}
+.pager__item {
+  display: flex;
+  flex-direction: row;
+  padding:0;
+  //0.5em
+}
+.pager__item.is-active {
+  font-weight: bold;
+}
